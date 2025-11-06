@@ -10,7 +10,7 @@
 }
 
 .nav-breadcrumb{
-	background-color: #c8102e;
+	background-color: #043057;
 }
 
 .nav-breadcrumb ol{
@@ -29,6 +29,7 @@
 #top-tier h2 {
 	font-family: 'Crimson';
     font-style: italic;
+    color: white;
 }
 
 #top-tier p {

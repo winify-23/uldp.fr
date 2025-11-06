@@ -72,8 +72,8 @@
   text-align: left;
   border-radius: 100px;
   height: 54px;
-  background-color: #c8102e;
-  border: 1px solid #960c22;
+  background-color: #212151;
+  border: 1px solid #212151;
   padding: 0 30px;
   font-size: 20px;
   font-size: 18px;
@@ -138,7 +138,7 @@
 
 #banner2 .dropdown-toggle.show {
   border-radius: 27px 27px 0px 0px;
-  background-color: #960c22;
+  background-color: #212151;
 }
 
 #banner2 .btn-custom {
@@ -204,14 +204,14 @@
     text-align: left;
     border-radius: 100px;
     height: 54px;
-    background-color: #c8102e;
-    border: 1px solid #960c22;
+    background-color: #212151;
+    border: 1px solid #212151;
     padding: 0 30px;
     font-size: 20px;
     color: #FFF;
   }
   #admission-cta button:hover {
-    background-color: #960c22;
+    background-color: #212151;
   }
   #admission-cta .dropdown-menu {
     margin: 0;
@@ -416,7 +416,7 @@
 #homepage-list-container .event {
   font-family: "Source Sans Pro";
   font-weight: bold;
-  color: #C8102E;
+  color: #212151;
   font-size: 24px;
   line-height: 34px;
   margin: 0 0 5px 0;
@@ -1168,7 +1168,7 @@
 }
 
 .emergency h1 {
-  color: #c8102e;
+  color: #212151;
   font-weight: bold;
   margin-top: 0;
 }
@@ -1234,7 +1234,7 @@
   }
 }
 .nav-main .container-fluid-mobile {
-  background: #c8102e;
+  background: #212151;
   padding: 12px 10px;
 }
 
@@ -1326,7 +1326,7 @@
 }
 
 .navbar-default .navbar-collapse {
-  border-color: #c8102e;
+  border-color: #212151;
 }
 
 .nav-main .magnifying-glass {
@@ -1570,8 +1570,8 @@
   }
 }
 #nav-mobile.navbar {
-  background-color: #c8102e;
-  border-color: #c8102e;
+  background-color: #212151;
+  border-color: #212151;
   border-radius: 0;
   padding-bottom: 0;
 }
@@ -1622,7 +1622,7 @@
 
 #nav-desktop .dropdown-toggle[aria-expanded=true], #nav-desktop .dropdown-toggle:hover {
   text-decoration: underline !important;
-  text-decoration-color: #c8102e !important;
+  text-decoration-color: #212151 !important;
   text-decoration-thickness: 4px !important;
   text-underline-offset: 28px !important;
 }
@@ -1631,7 +1631,7 @@
   */
 /* text-decoration: underline;
  */
-/* text-decoration-color: #c8102e;
+/* text-decoration-color: #212151;
  */
 /* text-decoration-thickness: 4px;
  */
@@ -2080,7 +2080,7 @@
 }
 
 .emergency h1 {
-	color: #c8102e;
+	color: #212151;
 	font-weight: bold;
 	margin-top: 0;
 }
