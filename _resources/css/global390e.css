@@ -5380,7 +5380,7 @@ iframe.youtube {
 }
 
 .nav-secondary .selected > a {
-  background: #212151;
+  background: #7b5d2b;
   color: white;
 }
 
@@ -7286,7 +7286,7 @@ footer #categories {
   }
 }
 .nav-main .container-fluid-mobile {
-  background: #212151;
+  background: #7b5d2b;
   padding: 12px 10px;
 }
 
@@ -7371,7 +7371,7 @@ footer #categories {
 }
 
 .navbar-default .navbar-collapse {
-  border-color: #212151;
+  border-color: #7b5d2b;
 }
 
 .nav-main .magnifying-glass {
@@ -7461,7 +7461,7 @@ footer #categories {
 }
 #nav-mobile .navbar-header {
   width: 100%;
-  background-color: #212151;
+  background-color: #7b5d2b;
 }
 
 #nav-mobile.navbar {
@@ -7664,8 +7664,8 @@ footer #categories {
   }
 }
 #nav-mobile.navbar {
-  background-color: #212151;
-  border-color: #212151;
+  background-color: #7b5d2b;
+  border-color: #7b5d2b;
   border-radius: 0;
 }
 
