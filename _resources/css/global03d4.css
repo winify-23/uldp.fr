@@ -8508,7 +8508,8 @@ footer #categories {
 }
 
 .nav-main img {
-  height: 60px;
+  height: 120px;
+  width: 120px;
 }
 
 @media (min-width: 992px) {
