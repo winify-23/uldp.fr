@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.port": 5501,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#367f2d",
+        "titleBar.inactiveBackground": "#367f2d99",
+        "sash.hoverBorder": "#46a53a"
+    },
+    "peacock.color": "#367f2d"
+}
