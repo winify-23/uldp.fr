@@ -6,7 +6,7 @@
     position: relative;
     width: 100%;
     background: #000;
-    margin-bottom: 1500px;
+    margin-bottom: 1600px;
 }
 
 .hero-image {
@@ -152,6 +152,7 @@
     border: none;
     outline: none;
     background-color: #214667;
+    border: 1px solid transparent;
 }
 
 .btn-link a {
@@ -159,7 +160,12 @@
 }
 
 .btn-link:hover {
-    background-color: orange;
+    background: white;
+    border: 1px solid #214667;
+}
+
+.btn-link:hover a {
+    color: #214667;
 }
 
 .section-content p {
