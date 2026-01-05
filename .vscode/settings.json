@@ -3,7 +3,10 @@
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#367f2d",
         "titleBar.inactiveBackground": "#367f2d99",
-        "sash.hoverBorder": "#46a53a"
+        "commandCenter.border": "#e7e7e799",
+        "tab.activeBorder": "#46a53a",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#367f2d"
 }
