@@ -2,3 +2,8 @@ baseurl: /uldp.fr
 url: https://winify-23.github.io
 title: ULDP France
 description: Université Libérale de Paris
+
+include:
+	- _resources
+  - _calendar
+  - _images
