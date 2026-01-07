@@ -920,7 +920,7 @@ a {
 
 /* Sidebar Updates */
 .sidebar-blue {
-    background: #2d3562 url(../../../includes/img/bg_right_part.jpg) right top no-repeat;
+    background: #2d3562 url(../includes/img/bg_right_part.jpg) right top no-repeat;
     color: white !important;
 }
 
@@ -986,7 +986,7 @@ a {
 
 /* Student Blog Card - Background Image */
 .sidebar-blog {
-    background: url("../../../includes/img/exemple1.png") center/cover no-repeat !important;
+    background: url("../includes/img/exemple1.png") center/cover no-repeat !important;
     color: white !important;
     position: relative !important;
     overflow: hidden !important;
