@@ -162,6 +162,55 @@
             grid-template-columns: 1fr;
             min-width: 320px;
         }
+
+        /* LMD Boxes - 3 Column Layout */
+        .lmd-boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .lmd-box {
+            background: #f8f9fa;
+            border-left: 4px solid #263b6e;
+            padding: 25px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .lmd-box:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .lmd-box h3 {
+            color: #263b6e;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .lmd-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .lmd-boxes {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .lmd-boxes {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -207,7 +256,7 @@
                                     <span class="nolink" tabindex="0">Resources for</span>
                                 </li>
                                 <li class="leaf">
-                                    <a href="../about/about.html">About ULDP</a>
+                                    <a href="../about/index.html">About ULDP</a>
                                 </li>
                                 <li class="leaf has-dropdown">
                                     <a href="#">Programs</a>
@@ -374,101 +423,85 @@
             <div class="hero-section">
                 <img src="./_img/etudiants-table-ronde.jpg" alt="Students studying together" class="hero-image" />
                 <div class="content-box">
-                    <h1>FRENCH HIGHER EDUCATION SYSTEM</h1>
-                    <div class="print-link">
-                        <a href="javascript:window.print()">Print this article</a>
-                    </div>
+                    <h1>An Independent Liberal Education Institution in Paris</h1>
 
-                    <div class="intro-text">
-                        <p></p>
-                        In France, higher education is organised in accordance with the LMD system
-                        (Licence-Master-Doctorat). This system is common to university education in all
-                        European countries part of the Bologna process, including France.
+                    <h2>About ULDP</h2>
+                    <div class="section-content">
+                        <p>
+                            <strong>Université Libérale de Paris (ULDP)</strong> is an independent higher education institution based in Paris, dedicated to the humanities and social sciences. Rooted in the tradition of liberal education, ULDP places intellectual freedom, critical inquiry, and academic responsibility at the centre of its mission.
+                        </p>
+                        <p>
+                            ULDP offers academic programmes developed within the European higher education framework, while preserving a strong commitment to independence of thought and scholarly rigor.
                         </p>
                     </div>
 
-                    <div class="degree-types">
-                        <p>There are three types of university degrees in France:</p>
+                    <h2>Liberal Education at ULDP</h2>
+                    <div class="section-content">
+                        <p>
+                            Liberal education at ULDP is founded on the belief that higher education should cultivate independent thinkers, not merely technical specialists.
+                        </p>
+                        <p>At ULDP, students are encouraged to:</p>
                         <ul class="degree-list">
-                            <li>
-                                <span class="arrow">→</span>
-                                <strong>Licence</strong> (L1, L2, L3)
-                                <span class="degree-type">is an undergraduate degree</span> awarded after a
-                                period of study lasting 6 semesters (3 years).
-                            </li>
-                            <li>
-                                <span class="arrow">→</span>
-                                <strong>Master's</strong> (M1, M2)
-                                <span class="degree-type">is a graduate degree</span> awarded after a period of
-                                study lasting 2 years (or total of 5 years' study).
-                            </li>
-                            <li>
-                                <span class="arrow">→</span>
-                                <strong>A doctorate</strong> is awarded after a period of study lasting 16
-                                semesters (3 years, or a total of 8 years' study).
-                            </li>
+                            <li><span class="arrow">→</span> Question established ideas</li>
+                            <li><span class="arrow">→</span> Engage with complex intellectual traditions</li>
+                            <li><span class="arrow">→</span> Develop analytical, ethical, and reflective capacities</li>
+                            <li><span class="arrow">→</span> Approach knowledge across disciplinary boundaries</li>
                         </ul>
-                    </div>
-
-                    <div class="additional-info">
                         <p>
-                            There are two types of Master's: research Master's, which enable students to
-                            progress to a doctorate, and vocational Master's which prepare students for the
-                            world of work.
-                        </p>
-                        <p>
-                            Every Licence and Master's is defined according to a field of study, a
-                            specialisation and a path. For instance, there is a Master's in the "Science,
-                            Technology and Health" field specialising in "Fundamental and Applied Mathematics"
-                            which follows the "Probability and Statistics" path.
-                        </p>
-                        <p>
-                            The Engineering Degree (diplôme d'ingénieur) is a national one. The national
-                            institute for engineering qualifications provides engineering schools with
-                            accreditation, thus enabling them to award these degrees.
+                            This educational philosophy prepares students for both academic research and thoughtful engagement with contemporary social, cultural, and political challenges.
                         </p>
                     </div>
 
-                    <h2>Equivalences</h2>
+                    <h2>Academic Framework within Europe</h2>
                     <div class="section-content">
                         <p>
-                            No predetermined set of equivalences between French and foreign degrees is
-                            officially recognised in France.
+                            ULDP operates within the principles of the European Higher Education Area (EHEA), established through the Bologna Process. This framework promotes transparency, academic mobility, and the comparability of degrees across Europe.
                         </p>
                         <p>
-                            Each institution is free to set its own admission criteria and make its own
-                            admission decisions based on each applicant's background and the demands of the
-                            programme to which the applicant is seeking admission. This freedom allows French
-                            institutions to create well-qualified, well-balanced student cohorts without risking
-                            the integrity and reputation of their courses.
+                            While aligned with European academic standards, ULDP retains institutional autonomy in curriculum design, teaching approaches, and academic evaluation.
                         </p>
                     </div>
 
-                    <h2>ECTS credits</h2>
+                    <h2>Academic Structure (LMD System)</h2>
                     <div class="section-content">
                         <p>
-                            Each completed module yields a certain number of ECTS credits. 30 credits are
-                            required to validate a semester, and 60 to validate an academic year.
+                            ULDP's programmes follow the LMD structure (Licence–Master–Doctorat), the standard framework used across European higher education institutions.
+                        </p>
+                        <div class="lmd-boxes">
+                            <div class="lmd-box">
+                                <h3>Licence (Bachelor Level)</h3>
+                                <p>Undergraduate programmes are typically structured over three academic years. They provide students with a strong foundation in their chosen field, while developing critical reading, writing, and analytical skills essential to liberal education.</p>
+                            </div>
+                            <div class="lmd-box">
+                                <h3>Master (Graduate Level)</h3>
+                                <p>Graduate programmes are generally completed over two academic years. These programmes allow students to deepen theoretical knowledge, refine research methods, and pursue advanced academic or professional pathways.</p>
+                            </div>
+                            <div class="lmd-box">
+                                <h3>Doctoral Studies</h3>
+                                <p>Doctoral-level study at ULDP is research-oriented, focusing on original scholarly contribution within a defined academic discipline and sustained intellectual inquiry.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Admissions and Academic Evaluation</h2>
+                    <div class="section-content">
+                        <p>
+                            ULDP does not rely on automatic or predefined equivalence tables between French and foreign qualifications. Admissions decisions are made on an individual basis, taking into account each applicant's academic background, prior studies, and the specific requirements of the programme.
                         </p>
                         <p>
-                            Credits, once awarded, cannot be taken away; if a year has to be retaken, the
-                            validated credits are retained the following year and the student need only retake
-                            the modules which were not validated the previous year.
-                        </p>
-                        <p>
-                            In the main, French higher education is still based on a whole year (undergraduate
-                            degree or Licence 1, Master's 2, for example) rather than being divided into
-                            semesters.
+                            This approach allows ULDP to maintain academic standards while welcoming students from diverse educational and cultural systems.
                         </p>
                     </div>
 
-                    <h2>Learn more about the French Higher Education System</h2>
-                    <div class="img-systeme-conent-lmd">
-                        <img src="./_img/systeme_lmd_2021_en.jpg" alt="systeme_lmd_2021_en">
+                    <h2>Academic Philosophy and Intellectual Life</h2>
+                    <div class="section-content">
+                        <p>
+                            ULDP is committed to fostering an academic environment grounded in intellectual autonomy, critical debate, and scholarly responsibility. The university encourages students to engage deeply with ideas, challenge assumptions, and contribute thoughtfully to academic and societal discussions.
+                        </p>
+                        <p>
+                            At ULDP, education is understood not only as professional preparation, but as a lifelong intellectual practice.
+                        </p>
                     </div>
-                    <button class="btn-link">
-                        <a href="#">Visit Campus France website for more information</a>
-                    </button>
                 </div>
             </div>
         </div>

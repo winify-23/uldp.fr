@@ -11828,7 +11828,7 @@ body {
 }
 
 #page_wrapper.page_wrapper_no_full_width #page #page_content #sidebar_content {
-    width: 235px;
+    width: 335px;
     position: absolute;
     right: 0;
     top: 0;
@@ -11842,7 +11842,7 @@ body {
     }
 
     #page_wrapper.page_wrapper_no_full_width #page #page_content #sidebar_content>.content {
-        width: 235px;
+        width: 335px;
     }
 }
 
@@ -24244,14 +24244,13 @@ html.js fieldset.collapsed .fieldset-wrapper {
 .widget-aup-news-events-homepage .first_column_news_event a .front .bottom h5,
 .widget-aup-news-events-homepage .first_column_news_event a .front .bottom .h5,
 .widget-aup-news-events-homepage .first_column_news_event a .front .bottom .featured_news_top_title {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     height: 16px;
     text-align: left;
     color: #fefeff;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     margin-bottom: 0;
@@ -24260,7 +24259,7 @@ html.js fieldset.collapsed .fieldset-wrapper {
 .widget-aup-news-events-homepage .first_column_news_event a .front .bottom h3,
 .widget-aup-news-events-homepage .first_column_news_event a .front .bottom .h3,
 .widget-aup-news-events-homepage .first_column_news_event a .front .bottom .featured_news_main_title {
-    font-size: 19px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 22px;
     height: 16px;
@@ -24268,9 +24267,7 @@ html.js fieldset.collapsed .fieldset-wrapper {
     color: #fefeff;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;
     padding-left: 15px;
     margin-top: 13px;
     margin-bottom: 13px;
