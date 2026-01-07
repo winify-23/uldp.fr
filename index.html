@@ -161,6 +161,29 @@
     grid-template-columns: 1fr;
     min-width: 320px;
   }
+
+  /* Responsive typography for homepage hero widget (text only) */
+  @media (max-width: 768px) {
+    /* Shrink hero description text, keep image size unchanged */
+    .widget-image-text-placing-homepage .content .inner .desc_placing_home p {
+      font-size: 15px !important;
+    }
+
+    /* Tighter line-height for text inside widget rows */
+    .widget_row p,
+    .widget_row ul {
+      line-height: 20px;
+    }
+
+    /* Smaller hero title/subtitle on mobile */
+    .widget-image-text-placing-homepage .title_placing_home h2 {
+      font-size: 24px !important;
+    }
+
+    .widget-image-text-placing-homepage .title_placing_home h3 {
+      font-size: 16px !important;
+    }
+  }
 </style>
 </head>
 
@@ -282,10 +305,10 @@
         </div>
       </div>
     </header>
-    <!-- 
+    <!--
             sidebar type :
             -- Landing pages .sidebar_in_landing
-            -- Content pages .sidebar_in_content 
+            -- Content pages .sidebar_in_content
             -->
     <div id="print_header">
       <div id="print_header_logo">
@@ -403,7 +426,7 @@
                 <a href="./contact-us/index.html">Contact US</a>
               </li>
               <li class="expanded">
-                <a href="./news-events/index.html">News</a>                
+                <a href="./news-events/index.html">News</a>
               </li>
               </ul>
             </div>
