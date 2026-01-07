@@ -9337,7 +9337,6 @@ ul.links.inline li a:hover {
     .node-type-page-func #page_wrapper,
     .page-user #page_wrapper {
         position: relative;
-        padding-bottom: 265px;
     }
 
     .node-type-page-func #page_wrapper #page_footer,

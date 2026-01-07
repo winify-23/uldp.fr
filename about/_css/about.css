@@ -6,7 +6,7 @@
     position: relative;
     width: 100%;
     background: #000;
-    margin-bottom: 1600px;
+    margin-bottom: 1350px;
 }
 
 .hero-image {
@@ -26,6 +26,13 @@
     width: 100%;
     padding: 40px 50px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+    .content-box {
+        max-width: calc(100% - 25px);
+        padding: 25px 10px;
+    }
 }
 
 /* Typography */
@@ -182,7 +189,6 @@
     }
 
     .content-box {
-        width: 85%;
         padding: 30px 25px;
         top: 50%;
     }
@@ -197,5 +203,54 @@
 
     .degree-list li {
         font-size: 14px;
+    }
+}
+
+
+/* LMD Boxes - 3 Column Layout */
+.lmd-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.lmd-box {
+    background: #f8f9fa;
+    border-left: 4px solid #263b6e;
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.lmd-box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.lmd-box h3 {
+    color: #263b6e;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.lmd-box p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* LMD Boxes Responsive */
+@media (max-width: 1024px) {
+    .lmd-boxes {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .lmd-boxes {
+        grid-template-columns: 1fr;
     }
 }
