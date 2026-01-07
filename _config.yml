@@ -7,6 +7,3 @@ include:
   - _resources
   - _calendar
   - _images
-  - about/_css
-  - about/_js
-  - about/_img
