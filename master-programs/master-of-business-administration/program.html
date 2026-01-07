@@ -190,10 +190,12 @@
                 <div id="top_header">
                     <div class="container">
                         <div class="header_top_left">
+                            <a href="/index.html" title="Home" rel="home" id="logo">
                             <img
                                 src="../../sites/default/files/images/widget-assets/image/logo-uldp-02.png"
                                 alt="The American University of Paris"
                             />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -226,9 +228,6 @@
                         <div class="header_main_menu_home">
                             <nav>
                                 <ul class="menu">
-                                    <li class="first leaf">
-                                        <span class="nolink" tabindex="0">Resources for</span>
-                                    </li>
                                     <li class="leaf">
                                         <a href="../../about/index.html">About ULDP</a>
                                     </li>
@@ -325,6 +324,117 @@
                     </div>
                 </div>
             </header>
+
+            <div id="sidebar_header_responsive">
+                <div class="left">
+                    <a href="../../index.html" title="Home" rel="home" id="logo_responsive">
+                        <img src="../../sites/default/files/images/widget-assets/image/logo-uldp-02.png" alt="Home" width="170" />
+                    </a>
+                </div>
+                <div class="menu_button menu_button_first">
+                    <div class="responsive_trigger_menu" id="responsive_trigger_menu_main">
+                        <div class="hamburger-icon">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sidebar_main" class="sidebar_home sidebar_big sidebar_push_left">
+                <div id="sidebar_header">
+                    <div class="left">
+                        <a href="../../index.html" title="Home" rel="home" id="logo">
+                            <img src="../../sites/default/files/images/widget-assets/image/logo-uldp-01.png" alt="Home" width="170" />
+                        </a>
+                    </div>
+                    <div class="right trigger_main_menu">
+                        <div class="open_menu">
+                            <div class="hamburger">
+                                <i></i>
+                                <small>MAIN MENU</small>
+                            </div>
+                            <div class="close">
+                                <span>Close</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidebar_container">
+                    <div id="sidebar_hover">
+                        <div class="scrollable">
+                            <div id="sidebar_search">
+                                <form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+                                    <div>
+                                        <div class="container-inline">
+                                            <h2 class="element-invisible">Search form</h2>
+                                            <div class="form-item form-type-textfield form-item-search-block-form">
+                                                <label class="element-invisible" for="edit-search-block-form--2">Search</label>
+                                                <input title="Enter the terms you wish to search for." class="apachesolr-autocomplete form-text"
+                                                    data-apachesolr-autocomplete-id="search-block-form" type="text" id="edit-search-block-form--2"
+                                                    name="search_block_form" value="" size="15" maxlength="128" />
+                                            </div>
+                                            <div class="form-actions form-wrapper" id="edit-actions">
+                                                <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" />
+                                            </div>
+                                            <input type="hidden" name="form_build_id" value="form-X4vEIrEjjHQErDqQCP760-JsHWPwaZv-Fk2wC7mQ7FA" />
+                                            <input type="hidden" name="form_id" value="search_block_form" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="sidebar_main_menu">
+                                <ul class="menu">
+                                    <li class="first expanded">
+                                        <a href="../../about/index.html">About ULDP</a>
+                                    </li>
+                                    <li class="expanded">
+                                        <a href="#">Programs</a>
+                                        <ul class="menu">
+                                            <li class="expanded">
+                                                <a href="#">Master Programs</a>
+                                                <ul class="menu">
+                                                    <li class="first leaf">
+                                                        <a href="../../master-programs/master-of-business-administration/program.html">Master of Business Administration</a>
+                                                    </li>
+                                                    <li class="leaf">
+                                                        <a href="../../master-programs/master-of-hilosophy-in-tesol/program.html">Master of Philosophy in TESOL</a>
+                                                    </li>
+                                                    <li class="last leaf">
+                                                        <a href="../../master-programs/master-of-philosophy-in-education/program.html">Master of Philosophy in Education</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="expanded">
+                                                <a href="#">Doctoral Programs</a>
+                                                <ul class="menu">
+                                                    <li class="first leaf">
+                                                        <a href="../../doctoral-programs/doctor-of-business-administration-in-majors/program.html">Doctor of Business Administration</a>
+                                                    </li>
+                                                    <li class="leaf">
+                                                        <a href="../../doctoral-programs/doctor-of-education/program.html">Doctor of Education</a>
+                                                    </li>
+                                                    <li class="last leaf">
+                                                        <a href="../../doctoral-programs/doctor-of-philosophy-in-majors-dual-qualifications-with-uitm-by-research/program.html">Doctor of Philosophy (UITM)</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="expanded">
+                                        <a href="../../contact-us/index.html">Contact US</a>
+                                    </li>
+                                    <li class="expanded">
+                                        <a href="../../news-events/index.html">News</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sidebar_content_home" class="sidebar_content scrollable"></div>
+                </div>
+            </div>
+
+            <div id="sidebar_overlay"></div>
 
             <!-- CONTENT-->
             <div id="main_content">
@@ -1087,6 +1197,12 @@
         </div>
 
         <!-- JavaScript Files -->
+        <script type="text/javascript" src="https://www.aup.edu/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+        <script type="text/javascript" src="https://www.aup.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+        <script type="text/javascript" src="https://www.aup.edu/misc/jquery.once.js?v=1.2"></script>
+        <script type="text/javascript" src="https://www.aup.edu/misc/drupal.js?t3sagr"></script>
+        <script type="text/javascript" src="https://www.aup.edu/sites/all/themes/aup_2018/js/sidebar.js?t3sagr"></script>
+        <script type="text/javascript" src="https://www.aup.edu/sites/all/themes/aup_2018/js/custom.js?t3sagr"></script>
         <script src="../../includes/js/preventHashScroll.js"></script>
         <script src="../../includes/js/expandableSections.js"></script>
         <script src="../../includes/js/findCourseDropdown.js"></script>
