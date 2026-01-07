@@ -23,7 +23,7 @@
     transform: translateX(-50%);
     background: #fff;
     max-width: calc(100% - 150px);
-    width: 100%;
+    width: 80%;
     padding: 40px 50px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
