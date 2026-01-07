@@ -4,6 +4,6 @@ title: ULDP France
 description: Université Libérale de Paris
 
 include:
-	- _resources
+  - _resources
   - _calendar
   - _images
