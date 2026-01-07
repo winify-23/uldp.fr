@@ -107,7 +107,6 @@ hr {
 
 /* Info Box */
 .info-box {
-    height: 40px;
     background: #e8f4f8;
     padding: 15px 20px;
     margin-bottom: 30px;
@@ -125,9 +124,27 @@ hr {
     text-decoration: underline;
 }
 
+/* info text */
+.info-text {
+    background: #f5f5f5;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-left: 4px solid #ccc;
+}
+
+.info-text i {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
 /* Intro Text */
 .intro-text {
     margin-bottom: 40px;
+}
+
+.intro-text .text-bold {
+    font-size: 18px;
 }
 
 .intro-text p {
@@ -963,7 +980,7 @@ hr {
 
 /* Sidebar Updates */
 .sidebar-blue {
-    background: #2d3562 url(../includes/img/bg_right_part.jpg) right top no-repeat;
+    background: #2d3562 url(../../../includes/img/bg_right_part.jpg) right top no-repeat;
     color: white !important;
 }
 
@@ -1029,7 +1046,7 @@ hr {
 
 /* Student Blog Card - Background Image */
 .sidebar-blog {
-    background: url("../includes/img/exemple1.png") center/cover no-repeat !important;
+    background: url("../../../includes/img/exemple1.png") center/cover no-repeat !important;
     color: white !important;
     position: relative !important;
     overflow: hidden !important;
