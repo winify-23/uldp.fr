@@ -191,7 +191,8 @@
                                                 <li><a
                                                         href="../../bachelor-programs/bachelor-of-business-administration-in-majors/program.html">Bachelor
                                                         of Business Administration in Majors</a></li>
-                                                <li><a href="../../bachelor-programs/bachelor-of-education/program.html">Bachelor
+                                                <li><a
+                                                        href="../../bachelor-programs/bachelor-of-education/program.html">Bachelor
                                                         of Education
                                                         (B.Ed)</a></li>
                                                 <li><a
@@ -203,11 +204,14 @@
                                             <div class="dropdown-header">Master Programs</div>
                                             <ul>
                                                 <li><a
-                                                        href="../../master-programs/master-of-business-administration/program.html">Master of Business Administration</a></li>
+                                                        href="../../master-programs/master-of-business-administration/program.html">Master
+                                                        of Business Administration</a></li>
                                                 <li><a
-                                                        href="../../master-programs/master-of-hilosophy-in-tesol/program.html">Master of Philosophy in TESOL</a></li>
+                                                        href="../../master-programs/master-of-hilosophy-in-tesol/program.html">Master
+                                                        of Philosophy in TESOL</a></li>
                                                 <li><a
-                                                        href="../../master-programs/master-of-philosophy-in-education/program.html">Master of Philosophy in Education</a></li>
+                                                        href="../../master-programs/master-of-philosophy-in-education/program.html">Master
+                                                        of Philosophy in Education</a></li>
                                             </ul>
                                         </div>
                                         <div class="dropdown-column">
@@ -1012,17 +1016,75 @@
         </footer>
     </div>
     <!-- JavaScript Files -->
+    <script src="../../includes/js/preventHashScroll.js"></script>
+    <script src="../../includes/js/expandableSections.js"></script>
+    <script src="../../includes/js/findCourseDropdown.js"></script>
+    <script src="../../includes/js/studentCarousel.js"></script>
+
+    <script>
+        // Prevent # links from scrolling to top
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('a[href="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    return false;
+                });
+            });
+        });
+    </script>
+
     <script type="text/javascript" src="https://www.aup.edu/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
     <script type="text/javascript"
         src="https://www.aup.edu/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
     <script type="text/javascript" src="https://www.aup.edu/misc/jquery.once.js?v=1.2"></script>
     <script type="text/javascript" src="https://www.aup.edu/misc/drupal.js?t3sagr"></script>
+    <script type="text/javascript" src="https://www.aup.edu/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+    <script type="text/javascript" src="https://www.aup.edu/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+    <script type="text/javascript" src="https://www.aup.edu/misc/ui/jquery.ui.position.min.js?v=1.8.7"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/misc/ui/jquery.ui.position-1.13.0-backport.js?v=1.8.7"></script>
+    <script type="text/javascript" src="https://www.aup.edu/misc/ui/jquery.ui.autocomplete.min.js?v=1.8.7"></script>
+    <script type="text/javascript" src="https://www.aup.edu/misc/form-single-submit.js?v=7.103"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/sites/all/modules/custom/aup_custom/js/index.js?t3sagr"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/sites/all/modules/contrib/base/entityreference/js/entityreference.js?t3sagr"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/sites/all/modules/custom/news_tab/js/news_tab.js?t3sagr"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/sites/all/modules/contrib/base/spamspan/spamspan.js?t3sagr"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/sites/all/modules/contrib/base/apachesolr_autocomplete/apachesolr_autocomplete_jqueryui.js?t3sagr"></script>
+    <script type="text/javascript"
+        src="https://www.aup.edu/sites/all/modules/contrib/base/form_placeholder/form_placeholder.js?t3sagr"></script>
+    <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js?t3sagr"></script>
+    <script type="text/javascript" src="https://www.aup.edu/sites/all/themes/aup_2018/js/libraries.js?t3sagr"></script>
     <script type="text/javascript" src="https://www.aup.edu/sites/all/themes/aup_2018/js/sidebar.js?t3sagr"></script>
     <script type="text/javascript" src="https://www.aup.edu/sites/all/themes/aup_2018/js/custom.js?t3sagr"></script>
-    <script src="../../includes/js/preventHashScroll.js"></script>
-    <script src="../../includes/js/expandableSections.js"></script>
-    <script src="../../includes/js/findCourseDropdown.js"></script>
-    <script src="../../includes/js/studentCarousel.js"></script>
+
+    <script async src="https://use.fontawesome.com/6ee3ee201f.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/plain" data-rgpdadvency="statistiques">
+    var gTag = document.createElement('script');
+    gTag.setAttribute('src','https://www.googletagmanager.com/gtag/js?id=UA-21470681-5');
+    document.head.appendChild(gTag);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-21470681-5');
+  </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQW1H6SF6P"></script>
+    <script type="text/plain" data-rgpdadvency="statistiques">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YQW1H6SF6P');
+  </script>
 </body>
 
 </html>

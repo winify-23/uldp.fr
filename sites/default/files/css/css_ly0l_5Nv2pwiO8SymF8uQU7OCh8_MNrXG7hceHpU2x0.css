@@ -30317,32 +30317,6 @@ body.page-node-edit #edit_bar #tabs {
     }
 }
 
-#header #bottom_header .header_main_menu_home>nav>.menu>li:first-child .nolink:after {
-    content: "|";
-    margin-left: 5px;
-}
-
-@media (max-width:1199px) {
-    #header #bottom_header .header_main_menu_home>nav>.menu>li:first-child .nolink {
-        outline: none;
-        background: #263b6e;
-        font-style: normal;
-        padding-left: 15px;
-        padding-right: 15px;
-        height: 30px;
-        line-height: 32px;
-        color: #fff;
-        border-radius: 5px;
-        display: block;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    #header #bottom_header .header_main_menu_home>nav>.menu>li:first-child .nolink:after {
-        display: none;
-    }
-}
-
 #header #bottom_header .header_main_menu_home>nav>.menu>li:not(:last-child) {
     margin-right: 30px;
 }
@@ -30364,14 +30338,6 @@ body.page-node-edit #edit_bar #tabs {
 
 #header #bottom_header .header_main_menu_home>nav>.menu>li a:hover {
     color: #801c1b;
-}
-
-#header #bottom_header .header_main_menu_home>nav>.menu>li .nolink {
-    font-size: 16px;
-    font-weight: 600;
-    font-style: italic;
-    text-align: left;
-    color: #263b6e;
 }
 
 #footer_home #footer_home_header {
