@@ -147,10 +147,6 @@ hr {
     font-size: 18px;
 }
 
-.text-bold+.section-description {
-    margin-top: 20px;
-}
-
 .intro-text p {
     margin-bottom: 20px;
     line-height: 1.8;
@@ -192,7 +188,6 @@ hr {
     line-height: 1.8;
     color: #333;
     font-size: 15px;
-    display: inline-block;
 }
 
 .intro-text-list-item p strong {
